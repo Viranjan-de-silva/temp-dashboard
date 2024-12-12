@@ -1,0 +1,83 @@
+/* General Styles */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Row Styles */
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  /* Frame Styles */
+  .frame {
+    width: 30%;
+  }
+  
+  .frame-wide {
+    width: 65%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Header Styles */
+  .frame h1 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  /* Button Styles */
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #007faa;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Slider Styles */
+  .slider {
+    width: 80%;
+  }
+  
+  .slider-labels {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .slider-labels p {
+    margin: 0;
+  }
+  
+  .min-speed {
+    color: blue;
+  }
+  
+  .mid-speed {
+    color: green;
+  }
+  
+  .max-speed {
+    color: red;
+  }
+  

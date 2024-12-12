@@ -1,0 +1,37 @@
+.navbar{
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a3a4a5;
+    padding: 1rem;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.nav-list li{
+    color: white;
+    display: inline;
+}
+
+.nav-list a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-list a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width:1000px){
+    .navbar{
+        display: none;
+    }
+}
